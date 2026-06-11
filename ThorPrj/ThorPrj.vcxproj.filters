@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphicsClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUShaderClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedAllocationPolicy.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontShaderClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Colorvs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="Colorps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="fontShader.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\T_Hammer.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="data\T_GoldenBridge.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="data\T_Night.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="data\T_Platform.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="data\font.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="data\T_Castle01.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="data\T_Fense.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="data\StartMenu.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ThorPrj.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\fontdata.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

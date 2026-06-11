@@ -1,69 +1,40 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
+# Build output
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
 *.pch
 
-# Linker files
-*.ilk
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.aps
+ipch/
+*.opensdf
+*.sdf
+*.db
+*.opendb
+# ==========================================
+# 2. ThorPrj 세부 빌드 폴더 제외
+# ==========================================
+ThorPrj/x64/
+ThorPrj/x86/
+ThorPrj/Debug/
+ThorPrj/Release/
 
-# Debugger Files
-*.pdb
+# ==========================================
+# 3. ThorPrj/data 예외 처리
+# ==========================================
+# 혹시 위에서 *.obj 등이 전역 차단되는 것을 방지하기 위해 
+# data 폴더 내부의 특정 확장자는 강제로 Git 추적 대상에 포함합니다.
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+!ThorPrj/data/**/*.obj
+!ThorPrj/data/**/*.txt
+!ThorPrj/data/**/*.dds
