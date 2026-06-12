@@ -4,8 +4,6 @@
 
 <table width="100%" style="table-layout: fixed; border-collapse: collapse; border: none;"> <tr style="border: none;"> <td width="50%" style="text-align: center; border: none; padding: 5px;"> <img src="Preview/MAIN.gif" alt="MAIN" style="width: 100%; max-width: 100%; height: auto;"> <br><strong>Main Play</strong> </td> <td width="50%" style="text-align: center; border: none; padding: 5px;"> <img src="Preview/sideDONE.gif" alt="Preview2" style="width: 100%; max-width: 100%; height: auto;"> <br><strong>Preview2</strong> </td> </tr> </table>
 
-
-
 ## 🛠️ 개발 환경/빌드(Environment & Build) Guide
 **Development Tool:** Visual Studio 2022 
 **Graphics API:** DirectX 11
@@ -28,17 +26,16 @@ IA->VS->HS->T->DS->GS-> SO-> RS->PS->OM
 ```
 
 ### 02. 공간 좌표계 데이터 처리 (NDC ➡️ Screen ➡️ World)
-
 - 마우스 스크린 좌표를 역행렬 연산을 통해 3D 월드 좌표로 복원, 역으로 월드 포지션을 투영하는 VSCompute 자체 구현
 
 <table width="100%" style="table-layout: fixed; border-collapse: collapse; border: none;"> <tr style="border: none;"> <td width="50%" style="text-align: center; border: none; padding: 5px;"> <img src="Preview/WorldPositionSet.gif" alt="WorldPositionSet" style="width: 100%; max-width: 100%; height: auto;"> <br><strong>NDC->Screen->World로의 Data처리</strong> </td>  </tr> </table>
 ++ NDC->Screen->해머 위치 Queue로의 데이터 처리
 
 ### 03. 빌보드 시스템 (Billboard System)
-
 - 카메라의 뷰 행렬(View Matrix)을 기반으로 항상 카메라를 정면으로 바라보는 빌보드 컴포넌트를 구현하여 이펙트 및 정적 에셋 표현을 최적화
 
 <table width="100%" style="table-layout: fixed; border-collapse: collapse; border: none;"> <tr style="border: none;"> <td width="50%" style="text-align: center; border: none; padding: 5px;"> <img src="Preview/Builboard.gif" alt="BillBoard" style="width: 100%; max-width: 100%; height: auto;"> <br><strong>BillBoard</strong> </td>  </tr> </table>
+
 ### 04. 추가 ArtResource관리 
 - Bounding Box 관리 및 ArtResource 관리
 <table width="100%" style="table-layout: fixed; border-collapse: collapse; border: none;"> <tr style="border: none;"> <td width="50%" style="text-align: center; border: none; padding: 5px;"> <img src="Preview/ProceduralFense.gif" alt="ProceduralFense" style="width: 100%; max-width: 100%; height: auto;"> <br><strong>Houdini Prop Procedural Modeling</strong> </td>  </tr> </table>
