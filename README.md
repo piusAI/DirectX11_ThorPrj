@@ -36,12 +36,12 @@ IA->VS->HS->T->DS->GS-> SO-> RS->PS->OM
 
 ### 03. 빌보드 시스템 (Billboard System)
 
-- 카메라의 뷰 행렬(View Matrix)을 기반으로 항상 카메라를 정면으로 바라보는 빌보드 컴포넌트를 구현하여 이펙트 및 정적 에셋 표현을 최적화했습니다.
+- 카메라의 뷰 행렬(View Matrix)을 기반으로 항상 카메라를 정면으로 바라보는 빌보드 컴포넌트를 구현하여 이펙트 및 정적 에셋 표현을 최적화
 
 <table width="100%" style="table-layout: fixed; border-collapse: collapse; border: none;"> <tr style="border: none;"> <td width="50%" style="text-align: center; border: none; padding: 5px;"> <img src="Preview/Builboard.gif" alt="BillBoard" style="width: 100%; max-width: 100%; height: auto;"> <br><strong>BillBoard</strong> </td>  </tr> </table>
 ### 04. 추가 ArtResource관리 
 - Bounding Box 관리 및 ArtResource 관리
 <table width="100%" style="table-layout: fixed; border-collapse: collapse; border: none;"> <tr style="border: none;"> <td width="50%" style="text-align: center; border: none; padding: 5px;"> <img src="Preview/ProceduralFense.gif" alt="ProceduralFense" style="width: 100%; max-width: 100%; height: auto;"> <br><strong>Houdini Prop Procedural Modeling</strong> </td>  </tr> </table>
-- **Description:** 게임 엔진 내 효율적인 데이터 관리를 위해 Asset Bounding Box를 연산, 최적화된 아트 리소스 관리 파이프라인을 구축.
+- **Description:** 게임 엔진 내 효율적인 데이터 관리를 위해 Asset Bounding Box를 연산, 최적화된 아트 리소스 관리 파이프라인을 구축
 
 - **Houdini 연동 Procedural Modeling:** Houdini를 활용해 절차적으로 생성된 프롭(Procedural Fence 등) 데이터를 프레임워크 내에 효율적으로 배치하는 테크니컬 아트 파이프라인을 검증(DX-Houdini Parameter 동적 연동 X)
